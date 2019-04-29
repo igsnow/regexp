@@ -25,3 +25,9 @@
     let reg = new RegExp(/\d{3}\s+\d{3,8}/)
     console.log('ab123 456789'.match(reg));
 }
+
+{
+    // []更加精确的匹配
+    let reg = new RegExp(/[0-9a-zA-Z\_]+/)
+    console.log('_abc!'.match(reg))
+}
