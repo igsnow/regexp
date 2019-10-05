@@ -1,2 +1,2 @@
-# rules
-regular expression正则表达式
+# regexp
+RegExp Study
