@@ -7,8 +7,4 @@
     console.log(str.match(re));
 }
 
-{
-
-}
-
 
