@@ -11,10 +11,10 @@
   . 匹配任何，任何的字符 | 
 
 
-####注意事项 
+####注意事项 <br>
     ```
-    /\w/i    忽略大小写
-    /\w/g    全局匹配 
-    re.test(str)   =>  boolean
-    str.match(re)  =>  array
+    /\w/i    忽略大小写  <br>
+    /\w/g    全局匹配   <br>
+    re.test(str)   =>  boolean  <br>
+    str.match(re)  =>  array  <br>
     ```
