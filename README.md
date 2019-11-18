@@ -12,9 +12,9 @@
 
 
 #### 注意事项 
-    <pre>
+    ```
     /\w/i    忽略大小写  
     /\w/g    全局匹配   
     re.test(str)   =>  boolean  
     str.match(re)  =>  array  
-    </pre>
+    ```
