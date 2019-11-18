@@ -9,3 +9,10 @@
   \s 匹配white space(包括空格、tab等) | {min,max}出现次数在一个范围内	
   \S 匹配非white space(包括空格、tab等) | {n}匹配出现n次的 
   . 匹配任何，任何的字符 | 
+
+
+  ###注意事项
+    /\w/i    忽略大小写
+    /\w/g    全局匹配 
+    re.test(str)   =>  boolean
+    str.match(re)  =>  array
