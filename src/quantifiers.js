@@ -26,3 +26,10 @@
     let re = /\(?\d{3}[-.)]\d{3}[-.]\d{4}/g;
     console.log(str.match(re));
 }
+
+{
+    let str = 'gaoyaqi411@126.com dyumc@google.net sam@sjtu.edu vincent.ko@126.com 10086';
+    // 匹配所有的邮箱
+    let re = /[\w.]+@\w+\.(com|net|edu)/g;
+    console.log(str.match(re));
+}
