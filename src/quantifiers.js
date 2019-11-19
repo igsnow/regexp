@@ -11,3 +11,9 @@
     let re = /\b\w{5}\b/g;
     console.log(str.match(re));
 }
+
+{
+    let str = 'The lynk is quite a link don\'t you think? l nk l(nk'
+    let re = /l[yi (]nk/g;
+    console.log(str.match(re));
+}
